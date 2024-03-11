@@ -12,7 +12,9 @@
     <Compile Remove="del2.cs" />
     <Compile Remove="event1.cs" />
     <Compile Remove="event2.cs" />
+    <Compile Remove="ex.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="re.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +22,9 @@
     <None Include="del2.cs" />
     <None Include="event1.cs" />
     <None Include="event2.cs" />
+    <None Include="ex.cs" />
     <None Include="Program.cs" />
+    <None Include="re.cs" />
   </ItemGroup>
 
 </Project>

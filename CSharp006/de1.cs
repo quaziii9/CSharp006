@@ -3,6 +3,7 @@ namespace CSharp006
 {
     internal class de1
     {
+        // 대리자 형식으로 변환될 수 있는 무명 메서드를 만듬
         //===========================================================================
         // 델리게이트 (콜백) : 실행된 시점에 부여하는 식 , 누군가를 대신해서 일해주는 
         // 매서드의 참조 ,
@@ -42,13 +43,14 @@ namespace CSharp006
             callback = new MyDel(Plus);
             Console.WriteLine(callback(1, 2));
             callback.Invoke(10, 20); // invoke를 통해 참조되어 있는 함수를 호출
+            //Console.WriteLine(callback.Invoke(10,20));
+
             MyDel callback2 = Minus; // 간략하게...
             // 실행 -> 호출 -> return
 
             MyDel2 StrDel;
 
             // StrDel = Minus; // error : 반환형과 매개변수가 일치하지 않는 함수면 참조불가
-
         }
     }
 }
