@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="de1.cs" />
+    <Compile Remove="del2.cs" />
+    <Compile Remove="event1.cs" />
+    <Compile Remove="event2.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="de1.cs" />
+    <None Include="del2.cs" />
+    <None Include="event1.cs" />
+    <None Include="event2.cs" />
+    <None Include="Program.cs" />
+  </ItemGroup>
+
+</Project>
